@@ -128,3 +128,44 @@ word-spacing: normal2px;
     outline: none;
     cursor: pointer;
 }
+/* END OF HEADER STYLING  */
+/* START DESIGN STYLING */
+
+.design{
+padding: 4.5rem 0;
+}
+.title{
+    text-align: center;
+    padding: 1rem 0;
+}
+.title h2{
+    font-family: var(--Playfair);
+    font-size: 2.4rem;
+}
+.title p{
+    text-transform: uppercase;
+    padding: 0.6rem 0;
+}
+.design-content{
+    margin: 2rem 0 ;
+    display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 2rem;
+}
+.desing-item{
+   cursor: pointer; 
+   margin: 0;
+}
+.design-img{
+    position: relative;
+
+}
+.design-img::after{
+    position: absolute;
+   content: "Badboy" ;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.3);
+}
