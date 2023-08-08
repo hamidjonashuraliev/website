@@ -113,7 +113,7 @@ header {
     padding: 0.6rem 0;
     border: none;
 }
-.search-input: :placeholder {
+.search-input::placeholder{
     text-transform: capitalize;
 }
 .search-btn {
@@ -192,9 +192,16 @@ header {
     font-weight: 700;
     font-size: 1.1rem;
 }
-.design-titli {
+.design-titli{
     padding: 1rem;
     font-size: 1.2rem;
     text-align: center;
-    width: 70%;
+    width: 90%;
 }
+.design-titli a{
+    color: var(--dark) ;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: var(--Playfair);
+}
+/* End of design styling */
