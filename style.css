@@ -41,7 +41,7 @@ header {
     background-attachment: fixed;
 }
 .navbar {
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(6, 195, 228, 0.6);
     padding: 1.2rem;
 }
 .navigation {
@@ -163,7 +163,7 @@ header {
 }
 .design-img::after {
     position: absolute;
-    content: "Badboy";
+    content: "";
     top: 0;
     left: 0;
     width: 100%;
@@ -288,7 +288,8 @@ header {
 
 /*  Start of footer styling */
 footer {
-    background: var(--dark);
+    background: rgba(6, 195, 228, 0.6);
+
     color: #fff;
     text-align: center;
     padding: 2rem 0;
@@ -326,8 +327,11 @@ footer span {
 .navbar-nav i {
     display: none;
 }
-@media only screen and (max-width: 800px) {
-    navbar-nav a {
+/* @media screen {
+    
+} */
+@media screen and (max-width: 800px) {
+    .navbar-nav a {
         display: none;
     }
     .navbar-nav i {
@@ -335,10 +339,10 @@ footer span {
         font-size: 1.3rem;
         color: #fff;
         cursor: pointer;
-        transition: opacity .5s ease;
+        transition: opacity 0.5s ease;
     }
-    .navbar-nav i:hover{
-        opacity: .7;
+    .navbar-nav i:hover {
+        opacity: 0.7;
     }
     .banner-title {
         font-size: 3.5rem;
